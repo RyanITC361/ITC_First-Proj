@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles.css" /> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+
+
+  </head>
+  <body>
+    <header class="top-bar">
+      <h2 class="site-name">About</h2>
+      <nav class= "site-nav">
+
+      </nav>
+      
+    </header>
+
+    <main>
+      
+      <div id="picture"><img width="400px" src="dashelty.jpg" alt="random" /></div>
+
+      <p class = "fancy-text">
+        <h2> Education</h2>
+      I am a computer science major right now at Brigham Young University. I am a sophomore and I am currently 
+      interested in cybersecurity as I think it is a rather awesome profession. I currently have some coding experience and 
+      not a whole lot of cybersecurity experience although I am gradually gaining more and more experience. 
+      </p>
+
+      <p class = "fancy-text">
+        <h2> Hobbies</h2>
+      I have recently taken up an interest in crocheting although I've lacked the time to pursue it a lot. I also like to 
+      play with my dog and to read books. I also enjoy playing video games and playing games with my family. Sometimes I enjoy going out and doing things outdoors 
+      as well. 
+      </p>
+
+      <p class = "fancy-text">
+        <h2> Achievements </h2>
+      I have had a number of achievements throughout my life, they range from getting the Eagle Scout, graduating high school
+      getting a job (was way harder than I expected), some coding projects like building my own website with a frontend, backend and database. 
+      There are several more achievements as well that I've gotten but they're more minor achievements that a lot of people around me have gotten 
+      like being able to live on my own (also harder than I thought) and getting into BYU.
+      </p>
+      <button class = "coolColoredButtons" onclick = "textButton()"> Click this to toggle greeting</button>
+      <p id="displayText">Click this to toggle greeting</p>
+      
+    <script>
+      let istrue = true
+      function textButton(){
+        istrue = !istrue;
+        document.getElementById("displayText").textContent = istrue ? "hello" :"goodbye"}
+      
+      </script>
+      
+
+      
+   
+    </main>
+
+    <footer>
+      <nav class= "footer-bar">
+        <a href="index.html" class="footer-link">About</a>
+        <a href="https://github.com/RyanITC361/ITC_First-Proj" class ="footer-link">The github</a>
+      </nav>
+    </footer>
+  </body>
+</html>
