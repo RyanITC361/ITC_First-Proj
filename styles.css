@@ -2,11 +2,11 @@
 
 
 
-.top-bar {
+.header {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: gray;
     color: white;
     padding: 10px 20px;
 }
@@ -19,18 +19,18 @@ color: white;
 .site-nav a{ text-decoration: underline; color: #a0c4ff; font-size: 16px;}
 
 
-.footer-bar{
+.footer{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: gray;
     color: white;
     padding: 10px 20px;
     
 }
 .footer-link {
     text-decoration:underline;
-    color: #a0c4ff;
+    color: white;
     font-size: 16px;
     padding: 0 100px;
     
@@ -55,27 +55,26 @@ html, body {
 main{flex-grow: 1;  display: flex;
     flex-direction: column;
 align-items: center;
-background-color:azure; }
+background-color:rgb(117, 248, 248); }
 
 
 
-.fancy-text{
-    color: #333;
+.text-info{
+    color: black;
     margin-top:30px;
-    background-color: #a0c4ff;
+    background-color: #619af7;
     text-align: center;
     width:720px;
 
 }
 
   
-  .coolColoredButtons{
+  .nicecoloredbuttons{
     background-color: #333;
     color:white;
 
   }
-  .coolColoredButtons:hover{
+  .nicecoloredbuttons:hover{
     background-color: black !important;
   }
-
 
